@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" >
+  <title>cv</title>
+</head>
+<body>
+<div class="container">
+  <header class="header">
+
+    <img class="profile-photo" src="img/myphoto.jpg" alt="my photo">
+
+    <div class="person">
+      <div class="person-name">Elena Kovalevskaya</div>
+      <hr class="person-line">
+      <div class="person-profession">FRONT-END DEVELOPER</div>
+    </div>
+    <nav class="nav">
+      <ul class="nav-list list-style ">
+        <li class="nav-item"><a href="#contacts" class="nav-link">CONTACTS</a></li>
+        <li class="nav-item"><a href="#aboutme" class="nav-link">ABOUT ME</a></li>
+        <li class="nav-item"><a href="#hardskills" class="nav-link">HARD SKILLS</a></li>
+        <li class="nav-item"><a href="#code" class="nav-link">CODE</a></li>
+        <li class="nav-item"><a href="#workexperience" class="nav-link">WORK EXPERIENCE</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">EDUCATION</a></li>
+        <li class="nav-item"><a href="#languages" class="nav-link">LANGUAGES</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class='main-wrapper'>
+      <section class="contact">
+        <h1 class="contact title" id="contacts">CONTACTS</h1>
+        <ul class="contact-list description">
+          <li class="contact-item list-style"><div class="material-symbols-outlined">send</div> @eKovalevckaya</li>
+          <li class="contact-item list-style"><div class="material-symbols-outlined">mail</div> elena.kovalevskaya6@gmail.com</li>
+          <li class="contact-item list-style"><div class="material-symbols-outlined">language</div> www.linkedin.com/in/elena-kovalevskaya/</li>
+        </ul>
+
+      </section>
+      <section class="about-me">
+        <h1 class="about-me title" id="aboutme">ABOUT ME</h1>
+        <div class="about-me description">
+         <div>Love to code and learn something new.</div>
+         <div>I know React and its ecosystem and can solve tasks by myself.</div>
+          <div>Care about quality of the code and user-friendly interfaces.</div>
+          <div>I want to find a team with similar values.</div>
+          </div>
+      </section>
+      <section class="hard-skills" id="hardskills">
+          <h1 class="hard-skills title">HARD SKILLS</h1>
+          <ul class="hard-skills-list description">
+            <li class="hard-skills-item ">TypeScript / Javascript(ES6+)</li>
+            <li class="hard-skills-item">React&Redux/Redux Toolkit</li>
+            <li class="hard-skills-item">NextJs</li>
+            <li class="hard-skills-item">StyledComponents</li>
+            <li class="hard-skills-item">Jest / react-testing-library</li>
+            <li class="hard-skills-item">Bootstrap/Material-UI/AntD</li>
+            <li class="hard-skills-item">Git/Github</li>
+          </ul>
+      </section>
+      <section class="code-example">
+        <h1 class="code-example title" id="code">CODE</h1>
+        <div class="code-example-description">
+          <h2 class="code-example-description title-item">DESCRIPTION:</h2>
+          <div class='code-example-description subtitle-item'>Complete the function that accepts a string parameter, and reverses each word in the string.
+            All spaces in the string should be retained.</div>
+        </div>
+          <pre class="code-example-description description">
+            <b>function</b> reverseWords (str) {
+                return str.<b>split</b>(' ').<b>map</b>((el) => el.<b>split</b>('').<b>reverse</b>().<b>join</b>('')).<b>join</b>(' ');
+            }
+          </pre>
+      </section>
+      <section class="work-experience">
+        <h1 class="work-experience title" id="workexperience">WORK EXPERIENCE</h1>
+        <div class="work-experience-item">
+          <div class="work-experience-item-promo">
+            <a class= "cursor" href="https://victoria-gudoit.github.io/kotiki/">
+              <img  class="work-experience-item-gif" src="img/trello.gif" alt="promo trello app">
+            </a>
+          </div>
+          <div class="work-experience-item-info">
+            <h2 class="title-item">TRELLO CLONE - vanilla JS.</h2>
+            <div class='subtitle-item'>Have learned how manipulate DOM using vanilla JS.</div>
+          </div>
+        </div>
+        <div class="work-experience-item">
+          <div class="work-experience-item-promo">
+            <a  class= "cursor" href="https://github.com/Kovalevskaya-Helena/react-weather-app">
+              <img  class="work-experience-item-gif" src="img/weather.gif" alt="promo weather app">
+            </a>
+          </div>
+          <div class="work-experience-item-info">
+            <h2 class="title-item">WEATHER APP - RectJS & Redux.</h2>
+            <div class='subtitle-item'> Have learned about global state management, network interaction, deep dived into event loop and macro/micro tasks.
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="education">
+        <h1 class="education title" id="education">EDUCATION</h1>
+        <h2 class="title-item">TEACHMESKIILS</h2>
+        <div class="subtitle-item">Course:Front-End Developer, 2021/2022</div>
+      </section>
+      <section class="languages">
+        <h1 class="languages title" id="languages">LANGUAGES</h1>
+        <ul class="languages-list description">
+          <li class="languages-item list-style"> RUSSIAN - Native</li>
+          <li class="languages-item list-style"> ENGLISH - Pre-Intermediate</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <ul class="footer list-style description">
+      <li class="footer-item "> <a class="footer-link cursor" href="https://github.com/Kovalevskaya-Helena"> Github </a></li>
+      <li class="footer-item"> 2022 </li>
+      <li class="footer-item">
+        <a  class="cursor" href="https://rs.school/js/">
+          <img class="icon" src="img/rs.svg" alt="rs_school icon">
+        </a>
+      </li>
+    </ul>
+  </footer>
+</div>
+</body>
+</html>

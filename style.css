@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container{
+  max-width: 980px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f7f2;
+  border-bottom: 3px solid #ae7e5e;
+}
+
+.nav{
+  padding-right: 30px;
+}
+.nav-list{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #6b4c3a;
+  line-height: 2.8;
+}
+.nav-link{
+  color: #6b4c3a;
+}
+.nav-link:hover{
+  cursor: pointer;
+  color:#ae7e5e
+}
+
+.profile-photo{
+  width: 250px;
+  padding: 30px;
+}
+
+.person{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.person-name{
+  font-family: 'Lato', sans-serif;
+  font-size: 48px;
+  color: #6b4c3a;
+}
+
+.person-line{
+  border: none;
+  color: #ae7e5e;
+  background-color: #ae7e5e;
+  height: 3px;
+  width: 100%;
+  margin: 30px 0px;
+}
+
+.person-profession{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  color: #6b4c3a;
+}
+
+.title{
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+}
+.description{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  line-height: 2.5;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.list-style{
+  list-style-type: none;
+}
+
+.title-item{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.subtitle-item{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  line-height: 1.5;
+}
+
+.work-experience-item{
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+  text-align: center;
+}
+
+.work-experience-item-gif{
+  width: 500px;
+}
+
+.icon{
+  width: 100px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-link:hover{
+  color:#ae7e5e;
+}
+
+.footer-link:visited{
+  color:#6b4c3a
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+
